@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Translate App</title>
     <style>
-        textarea{
+        textarea {
             width: 80%;
             height: 10vh;
             display: block;
@@ -14,7 +15,7 @@
             padding: 1rem;
         }
 
-        #output{
+        #output {
             border: 1px solid black;
             width: 80%;
             height: 10vh;
@@ -23,18 +24,30 @@
             padding: 1rem;
 
         }
-
     </style>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
+
 <body>
-    <h1>Talk Bananaaaaaaaaa</h1>
+    <h1 class="heading">Talk Bananaaaaaaaaa</h1>
     <button id="btn-translate">Translate</button>
 
-    <textarea id="input-Txt"placeholder="Put your English Text here we will convert it into banana language"></textarea>
+
+    <textarea id="input-Txt"
+        placeholder="Put your English Text here we will convert it into banana language"></textarea>
 
     <div style="font-size: large;">Output will come here 👇</div>
     <div id="output"></div>
-
     <script src="app.js" text="text/javascript"> </script>
+    <footer class="footer">
+        <div class="footer-header">Some Facts About Minions 🤩 
+        <p> The average Minion stands at 105cm in height.
+        The Minions’ language may sound like gibberish, but many of their phrases will be recognisable. “Banana” is banana (natch), Bapples is apples, para tú is rough Spanish meaning “for you” and “gelato” is ice cream. Each word in “minion-ese” translates to an actual word.</p>
+    </div>
+    </footer>
+    
+
 </body>
+
+
 </html>
